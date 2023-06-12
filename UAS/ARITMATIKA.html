@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<head>
+ <meta charset="UTF-8">
+ <title>KALKULATOR 101</title>
+ <style>
+  body {
+		background-image: url("bgkalkulator.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-attachment: fixed;
+		background-size: 100%;
+        overflow: hidden;
+	}
+  .button {
+            position: center;
+            border: 17px;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 2px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .button1 {
+            background-color: white; 
+            color: black; 
+            border: auto #74af4c;
+            padding-bottom: 10px;
+        }
+
+        .button1:hover {
+            background-color: #310f47;
+            color: white;
+            border: auto;
+        }
+ </style>
+	<br>
+	<div style="background-color: rgba(175,75,146, 0.78); position: absolute; ;left: 300px; width: 50%; height: 93% ">
+</head>
+    <pre>
+<body>
+
+<!-- Form input data Angka -->
+<div style=" width: 90%; text-align: center; float: right;"> 
+	<h3><font color="white" size="5%">ARITMATIKA KALKULATOR</h3>
+   </font>
+ <form name="form" align="center"> <font color="white" size="4.5%">
+    <span>Input Data Angka 1 :</span><input type="text" name="angka1" size="3"><br>
+    <span>Input Data Angka 2 :</span><input type="text" name="angka2" size="3">
+    <font size="4">
+    <p>Pilih Operator</p>
+    <input type="button" onclick="tambah()" value="+"><input type="button" onclick="kurang()" value="-"><input type="button" onclick="kali  ()" value="x"><input type="button" onclick="bagi  ()" value="/"><input type="reset"  onclick="clear ()" value="CLEAR">
+    <Pre>
+    <p>Hasil: <input type="text" name="hasil" size="8" value="">
+      <center><button  class="button button1" ><a href = "MENU.html">MENU</a></button></center>
+    </pre>
+  </font> 
+</form>
+
+
+<!-- javascript -->
+
+ <script>
+
+  function cek(){
+
+   if (form.angka1.value == "" || form.angka2.value == "") {
+    alert("Angka Kosong");
+    exit
+   }
+
+  }
+
+  function tambah(){
+
+   cek();
+   a = parseInt(form.angka1.value);
+   b = parseInt(form.angka2.value);
+
+   form.hasil.value = a+b;
+  }
+
+  function kurang(){
+
+   cek();
+   a = parseInt(form.angka1.value);
+   b = parseInt(form.angka2.value);
+
+   form.hasil.value = a-b;
+
+  }
+
+  function kali(){
+
+   cek();
+   a = parseInt(form.angka1.value);
+   b = parseInt(form.angka2.value);
+
+   form.hasil.value = a*b;
+
+  }
+
+  function bagi(){
+   cek();
+   a = parseInt(form.angka1.value);
+   b = parseInt(form.angka2.value);
+   form.hasil.value = a/b;
+
+  }
+
+ </script>
+</body>
+</html>
