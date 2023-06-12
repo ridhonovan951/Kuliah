@@ -1,0 +1,21 @@
+
+Adjustments  Tool adalah salah satu fitur
+yang memberikan efek perubahan warna pada gambar.
+di dalam adjustment layer kamu menemukan brightnesw, shadow, temperature DLL
+
+MASKING
+adalah alat menyembunyikan atau menutupi suatu objek dengan objek lain, sehingga objek yang menutupi terlihat transparan dan menyatu dengan objek yang ditutupi.
+is tool hide or cover an object with another object, so that the object that covers it looks transparent and blends with the object that is covered.
+
+
+
+
+
+
+
+
+
+advantage
+Banyak sekali fitur – fitur yang unggul.
+Mudah di operasikan.
+Familyar dalam kalangan kita.

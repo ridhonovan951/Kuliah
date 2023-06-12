@@ -1,0 +1,28 @@
+
+1. in book
+
+
+
+
+TEKS 2
+
+when you turn on computer, CPU will a procces data. 
+this is a booting up.
+ and then if you will a comand program you must click icon of software and the program to start form your comand.
+
+lests use the example of an internet browser. once the computer ready  for your intructions
+, you can enter an address URL or Uniform Resource locator. and then the computer now know what you want it to do.
+ and send comand the signal to modem. if it is able to find correct address.
+ your computer will information for you over cable your computer and you see.  
+
+
+TEKS 3
+Operating system or OS is manage all other program or aplication in your computer.
+GUI or graphical user interface is the operating system through a user interface 
+such as a command language or a graphical user interface (GUI).
+the examples of operating system
+linux,windows,IOS,AIX.
+
+TEKS 4
+aplication software an aplication is a set of computer programs designed to permit the user to perform a group of coordinated functions, tasks,or activities.
+
