@@ -1,0 +1,260 @@
+
+1. nama
+2. deskripsi
+3. mode (public/private)
+4. license = 
+
+
+wes itu dulu aja
+
+nanti kalo sdh pro baru pilih license
+shap mas
+
+nah ini di ikutin
+
+tapi login sek
+pakai token tadi
+iya mas..
+gimana mas>?
+
+1. git config --global user.email "YOUR_EMAIL"
+2. git config --global user.name "YOUR_NAME(username)"
+3. git config --global credential.helper store (save github permanent)
+>?????????
+let's go
+
+email dalam tanda kutip
+
+pakai git bash apa terminal sj
+
+enter
+
+skrg masuk project
+dimana mas??
+
+copy dari github
+
+belajar ketiken sendiri van
+wkwkwkwk males mass
+
+ini terus di ulang tiap update / upload
+
+next ndak ada
+ohh okok mas
+
+atau save en sek kode ne
+semua?
+
+itu sj
+
+wedeh salah hapus..!!!!
+
+folder git sama .git*
+
+
+lah composer ndak detect?
+yaitu kayake sumbernya mas>>
+
+kok masih kosong?
+
+yang ngajari buat folder pakai spasi spo van?
+BAPAK WKWKWWK
+
+sip
+ulang
+WAAUUEEEWW
+
+
+maksudnya upload ulang ke github
+bikin project tinggal
+laravel new nama_project
+pakai git bash wae van
+nah
+usil se
+biasakan di awal susah2 dahulu bersenang2 kemudian
+satu dua pulau terlampaui mas...wkwkwkw
+
+
+coba refresh github
+masih 1 file tok ke upload
+
+ulang kode ini
+
+1. git add .
+2. git commit -m "apa yang baru"
+3. git branch -M main
+4. git push -u origin main
+5. refresh github lg
+satu satu mas?
+ya, itu tak ketik ndak sampe semenit kan
+
+habis itu selesai
+
+tadi awal kan kamu
+git add README.md (yang kamu upload 1 file README.md sj)
+
+ganti jadi
+git add .
+berarti upload semua kode
+itu semua mas?
+ya 4 baris tok terus refresh github lg
+dari yanf mana mas?
+git add .
+trus git commit seterusnya
+yang composser itu?
+otomatis keupload nanti
+yang ndak ikut .env
+
+langsung ketik di git bash aja
+
+. (dot) itu mewakili semua file 
+bedain git add dan . (file)
+
+ndak usah ngetik nama file lagi
+langsung semua pakai . (titik)
+enter van
+udah mass>:
+
+wis, tinggal share temenmu
+
+
+wis, tinggal temenmu confirm dan git clone ke leptop mereka
+kan kemarin udah bikin mass..nanti temenku join trus bisa di commit lagi??
+di synsc??
+
+ya, tinggal git clone <<alamat repository>>
+
+contoh (pakai yg https sj)
+git clone https://github.com/Bsuhwuu/IUM.git
+
+tapi harus terhubung ke project dulu via colab td
+jadi gimana mas:
+udh bikin yg mana projectnya?
+itu mass
+
+maksudnya kamu yg clone ta?
+iyaa
+soalnya kan saya tadi udah bikin..trus eror
+la temenku mmalah bisa masujk
+owh ya wis, kamu yg git clone sj projectnya
+
+nanti tiap ada yg ngepush update, kamu tiap mulai harus git pull dulu
+git pull origin main (artinya update source kode di leptopmu)
+ohhh
+yang inii//
+itu mas>?
+
+itu cara buat repository
+buat aja lanjutannya
+tadi kan sdh reupload semua perubahan pakai git add .
+trus git clone buat download repository punya temenmu ke leptopmu
+git pull tiap kali ada yg push biar ke sync ke semua leptop
+wes itu wae
+coba tutor mas mas ngoding di PCnya mas
+langsung git clone sj repository tadi
+habis di copy
+
+keluar folder sik
+cd .. (keluar 1 directory)
+itu sdh ada IUM ya?
+kamu hapus dulu sj
+trus?
+langsung git clone (alamat repository tadi)
+gak bisa?
+coba sek
+
+ketik git clone dulu
+
+sambung
+eror
+temenmu sdh share colab?
+bukane ini tadi dari aku trus di commit temenku mas?
+foldernya yg mana?
+yang itu
+
+itu kan yg ke-2 baru kamu buat\
+\
+yang pertama di upload yg mana?
+yang petama
+
+pantesan ndak bisa bikin repository lg
+ndak bilang e
+makanya error
+eeeeeeee
+masalahnya knp ada tulisan yogadwi?
+dia ngommit mas tapi yang keseluruhan file
+akucuma bikinn readme tokk
+eleh, coba git pull ulang kalo gitu
+
+ndak
+bntar van
+td kan kehapus file git nya
+ulang git remote dulu
+sama git init
+
+foldernya error
+git clone ulang sj
+iyaa mass
+
+wes kamu pakai folder yg baru itu sj
+IUM
+okeoke maas
+udah mas?
+iya
+save 
+
+ngapain pake php artisan
+kan udh ada laragon
+mau cek ke website nya gimana mas?
+ya wes coba fungsinya dulu
+maksudnya mas?
+ndak papa pake php artisan serve dulu
+habis itu tak ajarin biar cepet
+tapi kok eror?w,w,w
+apa belom connect?
+owh composer install dulu
+krn baru git clone dari repository jd mesti download ulang vendornya
+database ku yang nggak ada mas?
+iya
+yg buat database siapa?
+temen
+samain nama databasenya
+
+buat database baru aja van
+jgn pakai nama laravel
+nanti nggak bingung mas??
+ya, buat nama database di awal sj
+kamu git push ndak ganggu database yg lain
+krn .env ndak ikut keupload ohh
+okok ok
+berartinanti aku juga harus ngabarin temenku nggak mas?
+ndak perlu
+sek
+atau gini aja
+laravel hapusen
+trus di .env kamu buat nama database sendiri
+contoh ium
+buat nama database sendiri van
+itu diganti mas?
+iya
+gakpapa>/?
+iya
+save nggak mas?
+save aja
+ndak usah buat naam database lg van
+kamu ketik perintah laravel sj
+php artisan migrate --seed
+trus? yes
+weeehhhh
+alhamdulillah massss
+bbuuuiiisssaaa
+wkwkwkwkwkkwwkwkwkw'
+muuaaakkaassiihhh massss
+yweeeeeee ahahahahahah
+
+oke
+udah mas.. lanjut tidur?
+masih UTS
+wes ya
+ookee masss
+

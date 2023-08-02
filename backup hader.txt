@@ -1,0 +1,73 @@
+@extends('dashboard.layouts.main')
+
+@section('container')
+<section>
+    <div class="container mt-3">
+        <div class="row justify-content-center">
+          <div class="col-11">
+            <div class="row justify-content-between">
+              <div class="col"><h2>Daftar Produk</h2></div>
+              <div class="col text-end"><a href="/dashboard/tambah-produk"><button class="btn pt-2 pb-2 shadow-sm" style="background-color: #70FFBA"><span data-feather="plus-square"></span> Tambah</button></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center table-responsive mt-2">
+            <div class="col-11">
+                <table class="table table-striped table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col" style="width: 2rem;">#</th>
+                        <th scope="col">Nama Produk</th>
+                        <th scope="col"></th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      Opsi Tampilan 1
+                       @foreach ($products as $product)
+                      <tr>
+                        <th class="pb-3 pt-3" scope="row">{{ $product->id }}</th>
+                        <td class="pb-3 pt-3">{{ $product->nama_produk }}</td>
+                        <td class="text-end">
+                            <a href="/produk/{{ $product->slug }}" target="_blank"><button class="btn btn-warning ms-1 mb-1">Lihat <span data-feather="external-link"></span></button></a>
+                            <a href="/dashboard/edit-product"><button class="btn btn-success ms-1 mb-1">Edit <span data-feather="edit"></span></button></a>
+                            <form action="/dashboard/{{ $product->slug }}" method="post" class="d-inline">
+                            @method('delete')
+                            @csrf
+                            <button class="btn btn-danger ms-1 mb-1" onclick="return confirm('Yakin Mau Hapus Produk??')">Hapus <span data-feather="trash"></span></button>
+                            </form>
+                        </td>
+                      </tr>
+                      @endforeach
+
+                      <!-- Opsi Tampilan 2 -->
+                      @foreach ($products as $product)
+                      <tr>
+                        <th class="pb-3 pt-3" scope="row">{{ $product->id }}</th>
+                        <td class="pb-3 pt-3"><a href="/dashboard/edit-product" title="Edit produk"><div>{{ $product->nama_produk }}</div></a></th>
+                        <td class="text-end">
+                          <div class="dropdown">
+                            <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <span data-feather="more-vertical"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item pt-2 pb-2" href="produk/{{ $product->slug }}" target="_blank"><span data-feather="external-link"></span> Lihat</a></li>
+                              <li>
+                                <form action="/dashboard/{{ $product->slug }}" method="post" class="d-inline">
+                                  @method('delete')
+                                  @csrf
+                                  <button class="dropdown-item" onclick="return confirm('Yakin Mau Hapus Produk??')"><span data-feather="trash"></span> Hapus</button>
+                                  </form>
+                              </li>
+                            </ul>
+                          </div>
+                        </td>
+                      </tr>
+                      @endforeach
+
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+</section>
+@endsection
